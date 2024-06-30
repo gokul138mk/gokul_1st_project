@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Page</title>
+  <style>
+    /* Basic reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('./image/login2.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+
+  .topnav {
+      display: flex;
+      justify-content: center;
+      background-color: #ff9500;
+      overflow: hidden;
+  }
+  
+  .topnav a {
+      color: white;
+      padding: 14px 20px;
+      text-align: left;
+      text-decoration: none;
+      display: block;
+  }
+  
+  .topnav a:hover {
+      background-color: #ff0909;
+      color: rgb(255, 255, 255);
+  }
+  
+  .main-content {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .sidenav {
+      flex: 1;
+      min-width: 200px;
+      background-color: #f4f4f4;
+      padding: 30px;
+  }
+  
+  .sidenav a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #333;
+  }
+  
+  .sidenav a:hover {
+      background-color: #ddd;
+  }
+
+    @media (max-width: 768px) {
+      .togglebar {
+        display: block; /* Show on smaller screens */
+      }
+    }
+
+    .togglebar a {
+      display: block;
+      color: #333;
+      text-decoration: none;
+      padding: 8px 0;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .booking-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 400px;
+      margin: 20px auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+    }
+
+    .input-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .input-group input, .input-group select {
+      width: 100%;
+      padding: 8px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .input-group input:focus, .input-group select:focus {
+      outline: none;
+      border-color: #007bff;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      text-align: center;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+<nav class="topnav">
+    <a href="index.html">Home</a>
+    <a href="login.html">back</a>
+    <a href="index.html">logout</a>
+</nav>
+  <div class="booking-container">
+    <h2>Booking Details</h2>
+    <form id="booking-form">
+      <div class="input-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="input-group">
+        <label for="name">Gender</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="input-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="input-group">
+        <label for="date">Booking Date</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <div class="input-group">
+        <label for="time">Booking Time</label>
+        <input type="time" id="time" name="time" required>
+      </div>
+      <div class="input-group">
+        <label for="service">Batch</label>
+        <select id="service" name="service" required>
+          <option value="">choose a Batch</option>
+          <option value="service1">no.1</option>
+          <option value="service2">no.2</option>
+          <option value="service3">no.3</option>
+          <option value="service3">no.4</option>
+          <option value="service3">no.5</option>
+          <option value="service3">no.6</option>
+          <option value="service3">no.7</option>
+          <option value="service3">no.8</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="service">payment methode</label>
+        <select id="service" name="service" required>
+          <option value="">choose payment methode</option>
+          <option value="service1">debit or credit card</option>
+          <option value="service2">pay rupee</option>
+          <option value="service3">UPI payment</option>
+      </select>
+      </div>
+      <button type="submit" class="btn">Book Now</button>
+    </form>
+  </div>
+  <footer>
+    <div class="end">
+      <p> copyrights all reneved 2024</p>
+    </div>
+  </footer> 
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gokul Gym</title> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, sans-serif;
+        background-color: rgba(14, 14, 14, 0.792);
+      }
+       /* Basic styling for the table */
+table {
+  width: 700px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Styling for table header */
+th, td {
+  padding: 8px;
+  text-align: left;
+  color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Custom column widths */
+th:nth-child(1), td:nth-child(1) {
+  width: 40%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+  width: 20%;
+}
+
+th:nth-child(3), td:nth-child(3) {
+  width: 40%;
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f916;
+}
+ 
+.text2{
+  text-align: center;
+  color: rgb(255, 251, 251);
+}
+
+.text1{
+  text-align: center;
+  color: rgb(255, 251, 251);
+}
+
+.text3{
+  text-align:center;
+  color: rgb(255, 255, 255);
+}
+
+.header{
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.timing{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.open{
+  color: #f1f1f1;
+}
+
+.end{
+  background-color:#0b68d1;
+  justify-content: space-between;
+  padding: 10px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ɢօӄʊʟ ɢʏʍ</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="register.html" tabindex="-1" aria-disabled="true">register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact us.html" tabindex="-1" aria-disabled="true">contact us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+        <div class="text1">
+          <h2>ℍ𝕚..𝕎𝕖𝕝𝕔𝕠𝕞𝕖 𝕋𝕠 𝕆𝕦𝕣 𝔾𝕪𝕞</h2>
+          <br>
+          <br>
+          <p>𝑻𝒉𝒆 𝒈𝒚𝒎 𝒉𝒂𝒔 𝒃𝒆𝒄𝒐𝒎𝒆 𝒂 𝒑𝒐𝒑𝒖𝒍𝒂𝒓 𝒅𝒆𝒔𝒕𝒊𝒏𝒂𝒕𝒊𝒐𝒏 𝒇𝒐𝒓 𝒊𝒏𝒅𝒊𝒗𝒊𝒅𝒖𝒂𝒍𝒔 𝒔𝒆𝒆𝒌𝒊𝒏𝒈 𝒕𝒐 𝒊𝒎𝒑𝒓𝒐𝒗𝒆 𝒕𝒉𝒆𝒊𝒓 𝒑𝒉𝒚𝒔𝒊𝒄𝒂𝒍 𝒉𝒆𝒂𝒍𝒕𝒉 𝒂𝒏𝒅 𝒘𝒆𝒍𝒍-𝒃𝒆𝒊𝒏𝒈. 𝑾𝒊𝒕𝒉 𝒕𝒉𝒆 𝒓𝒊𝒔𝒆 𝒐𝒇 𝒎𝒐𝒅𝒆𝒓𝒏 𝒈𝒚𝒎𝒔, 𝒑𝒆𝒐𝒑𝒍𝒆 𝒄𝒂𝒏 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒂 𝒘𝒊𝒅𝒆 𝒓𝒂𝒏𝒈𝒆 𝒐𝒇 𝒆𝒒𝒖𝒊𝒑𝒎𝒆𝒏𝒕 𝒂𝒏𝒅 𝒇𝒂𝒄𝒊𝒍𝒊𝒕𝒊𝒆𝒔 𝒕𝒐 𝒂𝒄𝒉𝒊𝒆𝒗𝒆 𝒕𝒉𝒆𝒊𝒓 𝒇𝒊𝒕𝒏𝒆𝒔𝒔 𝒈𝒐𝒂𝒍𝒔. 𝑻𝒉𝒆 𝒂𝒕𝒎𝒐𝒔𝒑𝒉𝒆𝒓𝒆 𝒐𝒇 𝒂 𝒈𝒚𝒎 𝒊𝒔 𝒐𝒇𝒕𝒆𝒏 𝒎𝒐𝒅𝒆𝒓𝒏 𝒂𝒏𝒅 𝒄𝒍𝒆𝒂𝒏, 𝒘𝒊𝒕𝒉 𝒔𝒕𝒂𝒕𝒆-𝒐𝒇-𝒕𝒉𝒆-𝒂𝒓𝒕 𝒎𝒂𝒄𝒉𝒊𝒏𝒆𝒓𝒚 𝒂𝒏𝒅 𝒂 𝒄𝒐𝒎𝒇𝒐𝒓𝒕𝒂𝒃𝒍𝒆 𝒆𝒏𝒗𝒊𝒓𝒐𝒏𝒎𝒆𝒏𝒕 𝒕𝒉𝒂𝒕 𝒆𝒏𝒄𝒐𝒖𝒓𝒂𝒈𝒆𝒔 𝒗𝒊𝒔𝒊𝒕𝒐𝒓𝒔 𝒕𝒐 𝒇𝒆𝒆𝒍 𝒂𝒕 𝒆𝒂𝒔𝒆. 𝑴𝒂𝒏𝒚 𝒈𝒚𝒎𝒔 𝒂𝒍𝒔𝒐 𝒐𝒇𝒇𝒆𝒓 𝒂 𝒗𝒂𝒓𝒊𝒆𝒕𝒚 𝒐𝒇 𝒄𝒍𝒂𝒔𝒔𝒆𝒔 𝒂𝒏𝒅 𝒕𝒓𝒂𝒊𝒏𝒊𝒏𝒈 𝒔𝒆𝒔𝒔𝒊𝒐𝒏𝒔, 𝒂𝒍𝒍𝒐𝒘𝒊𝒏𝒈 𝒊𝒏𝒅𝒊𝒗𝒊𝒅𝒖𝒂𝒍𝒔 𝒕𝒐 𝒄𝒉𝒐𝒐𝒔𝒆 𝒕𝒉𝒆 𝒕𝒚𝒑𝒆 𝒐𝒇 𝒘𝒐𝒓𝒌𝒐𝒖𝒕 𝒕𝒉𝒂𝒕 𝒔𝒖𝒊𝒕𝒔 𝒕𝒉𝒆𝒎 𝒃𝒆𝒔𝒕.</p>
+          <p>𝑾𝒉𝒆𝒕𝒉𝒆𝒓 𝒊𝒕’𝒔 𝒘𝒆𝒊𝒈𝒉𝒕𝒍𝒊𝒇𝒕𝒊𝒏𝒈, 𝒄𝒂𝒓𝒅𝒊𝒐, 𝒐𝒓 𝒈𝒓𝒐𝒖𝒑 𝒇𝒊𝒕𝒏𝒆𝒔𝒔, 𝒕𝒉𝒆𝒓𝒆’𝒔 𝒔𝒐𝒎𝒆𝒕𝒉𝒊𝒏𝒈 𝒇𝒐𝒓 𝒆𝒗𝒆𝒓𝒚𝒐𝒏𝒆 𝒂𝒕 𝒕𝒉𝒆 𝒈𝒚𝒎. 𝑨𝒅𝒅𝒊𝒕𝒊𝒐𝒏𝒂𝒍𝒍𝒚, 𝒎𝒂𝒏𝒚 𝒈𝒚𝒎𝒔 𝒉𝒂𝒗𝒆 𝒂 𝒘𝒆𝒍𝒍-𝒆𝒅𝒖𝒄𝒂𝒕𝒆𝒅 𝒔𝒕𝒂𝒇𝒇 𝒐𝒏 𝒉𝒂𝒏𝒅 𝒕𝒐 𝒑𝒓𝒐𝒗𝒊𝒅𝒆 𝒈𝒖𝒊𝒅𝒂𝒏𝒄𝒆 𝒂𝒏𝒅 𝒔𝒖𝒑𝒑𝒐𝒓𝒕 𝒕𝒐 𝒉𝒆𝒍𝒑 𝒑𝒂𝒕𝒓𝒐𝒏𝒔 𝒂𝒄𝒉𝒊𝒆𝒗𝒆 𝒕𝒉𝒆𝒊𝒓 𝒇𝒊𝒕𝒏𝒆𝒔𝒔 𝒈𝒐𝒂𝒍𝒔. 𝑶𝒗𝒆𝒓𝒂𝒍𝒍, 𝒕𝒉𝒆 𝒎𝒐𝒅𝒆𝒓𝒏 𝒈𝒚𝒎 𝒆𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆 𝒐𝒇𝒇𝒆𝒓𝒔 𝒂 𝒄𝒐𝒏𝒗𝒆𝒏𝒊𝒆𝒏𝒕 𝒂𝒏𝒅 𝒆𝒇𝒇𝒆𝒄𝒕𝒊𝒗𝒆 𝒘𝒂𝒚 𝒕𝒐 𝒊𝒎𝒑𝒓𝒐𝒗𝒆 𝒐𝒏𝒆’𝒔 𝒑𝒉𝒚𝒔𝒊𝒄𝒂𝒍 𝒉𝒆𝒂𝒍𝒕𝒉 𝒂𝒏𝒅 𝒐𝒗𝒆𝒓𝒂𝒍𝒍 𝒘𝒆𝒍𝒍-𝒃𝒆𝒊𝒏𝒈.  𝑨𝑰-𝒈𝒆𝒏𝒆𝒓𝒂𝒕𝒆𝒅 𝒂𝒏𝒔𝒘𝒆𝒓. 𝑷𝒍𝒆𝒂𝒔𝒆 𝒗𝒆𝒓𝒊𝒇𝒚 𝒄𝒓𝒊𝒕𝒊𝒄𝒂𝒍 𝒇𝒂𝒄𝒕𝒔. 𝑳𝒆𝒂𝒓𝒏 𝒎𝒐𝒓𝒆</p>
+          <br>
+          <br>
+          <img src="./image/gym3.avif" height="500px" width="1520px">
+          <br>
+          <br>
+          <p>𝑷𝒆𝒐𝒑𝒍𝒆 𝒈𝒐 𝒕𝒐 𝒕𝒉𝒆 𝒈𝒚𝒎 𝒕𝒐 𝒌𝒆𝒆𝒑 𝒕𝒉𝒆𝒎𝒔𝒆𝒍𝒗𝒆𝒔 𝒇𝒊𝒕. 𝑮𝒐𝒊𝒏𝒈 𝒕𝒐 𝒕𝒉𝒆 𝒈𝒚𝒎 𝒓𝒆𝒈𝒖𝒍𝒂𝒓𝒍𝒚 𝒈𝒊𝒗𝒆𝒔 𝒑𝒆𝒐𝒑𝒍𝒆 𝒕𝒉𝒆 𝒐𝒑𝒑𝒐𝒓𝒕𝒖𝒏𝒊𝒕𝒚 𝒕𝒐 𝒉𝒂𝒗𝒆 𝒂 𝒑𝒆𝒓𝒇𝒆𝒄𝒕 𝒃𝒐𝒅𝒚. 𝑾𝒐𝒓𝒌𝒊𝒏𝒈 𝒐𝒖𝒕 𝒊𝒔 𝒈𝒐𝒐𝒅 𝒇𝒐𝒓 𝒃𝒐𝒕𝒉 𝒑𝒉𝒚𝒔𝒊𝒄𝒂𝒍 𝒂𝒏𝒅 𝒆𝒎𝒐𝒕𝒊𝒐𝒏𝒂𝒍 𝒉𝒆𝒂𝒍𝒕𝒉. 𝑰𝒇 𝒂 𝒑𝒆𝒓𝒔𝒐𝒏 𝒉𝒂𝒔 𝒂 𝒔𝒕𝒓𝒐𝒏𝒈 𝒂𝒏𝒅 𝒉𝒆𝒂𝒍𝒕𝒉𝒚 𝒃𝒐𝒅𝒚, 𝒉𝒆/𝒔𝒉𝒆 𝒇𝒆𝒆𝒍𝒔 𝒔𝒂𝒕𝒊𝒔𝒇𝒊𝒆𝒅 𝒂𝒏𝒅 𝒉𝒂𝒑𝒑𝒚.</p>
+          <br>
+          <img src="./image/gym5.jpg" height="700px" width="1520px">
+          <br>
+          <p>𝑮𝒚𝒎 𝒎𝒖𝒔𝒕 𝒂𝒍𝒔𝒐 𝒃𝒆 𝒂𝒇𝒇𝒐𝒓𝒅𝒂𝒃𝒍𝒆 𝒕𝒐 𝒂 𝒑𝒆𝒓𝒔𝒐𝒏. 𝑻𝒉𝒆 𝒑𝒓𝒊𝒄𝒆 𝒐𝒇 𝒕𝒉𝒆 𝒎𝒆𝒎𝒃𝒆𝒓𝒔𝒉𝒊𝒑 𝒅𝒆𝒑𝒆𝒏𝒅𝒔 𝒐𝒏 𝒕𝒉𝒆 𝒒𝒖𝒂𝒍𝒊𝒕𝒚 𝒐𝒇 𝒆𝒒𝒖𝒊𝒑𝒎𝒆𝒏𝒕, 𝒍𝒐𝒄𝒂𝒕𝒊𝒐𝒏, 𝒔𝒕𝒂𝒇𝒇, 𝒂𝒏𝒅 𝒐𝒕𝒉𝒆𝒓 𝒇𝒂𝒄𝒕𝒐𝒓𝒔. 𝑬𝒗𝒆𝒓𝒚𝒐𝒏𝒆 𝒎𝒖𝒔𝒕 𝒄𝒉𝒐𝒐𝒔𝒆 𝒘𝒉𝒂𝒕 𝒊𝒔 𝒃𝒆𝒔𝒕 𝒇𝒐𝒓 𝒕𝒉𝒆𝒎. 𝑩𝒆𝒔𝒊𝒅𝒆𝒔 𝒘𝒐𝒓𝒌𝒊𝒏𝒈 𝒐𝒖𝒕, 𝒈𝒚𝒎𝒔 𝒂𝒍𝒔𝒐 𝒐𝒇𝒇𝒆𝒓 𝒈𝒓𝒐𝒖𝒑 𝒂𝒆𝒓𝒐𝒃𝒊𝒄𝒔 𝒄𝒍𝒂𝒔𝒔𝒆𝒔, 𝒔𝒘𝒊𝒎𝒎𝒊𝒏𝒈 𝒍𝒆𝒔𝒔𝒐𝒏𝒔, 𝒚𝒐𝒈𝒂 𝒄𝒍𝒂𝒔𝒔𝒆𝒔, 𝒆𝒕𝒄. 𝑺𝒐𝒎𝒆 𝒈𝒚𝒎𝒔 𝒆𝒗𝒆𝒏 𝒐𝒇𝒇𝒆𝒓 𝒓𝒐𝒄𝒌 𝒄𝒍𝒊𝒎𝒃𝒊𝒏𝒈, 𝒃𝒐𝒙𝒊𝒏𝒈, 𝒃𝒂𝒔𝒌𝒆𝒕𝒃𝒂𝒍𝒍, 𝒅𝒂𝒏𝒄𝒆-𝒃𝒂𝒔𝒆𝒅 𝒘𝒐𝒓𝒌𝒐𝒖𝒕𝒔, 𝒂𝒏𝒅 𝒗𝒐𝒍𝒍𝒆𝒚𝒃𝒂𝒍𝒍. 𝑵𝒐𝒘𝒂𝒅𝒂𝒚𝒔 𝒈𝒚𝒎𝒔 𝒄𝒂𝒏 𝒃𝒆 𝒅𝒆𝒔𝒊𝒈𝒏𝒆𝒅 𝒔𝒐 𝒔𝒕𝒚𝒍𝒊𝒔𝒉𝒍𝒚, 𝒕𝒉𝒂𝒕 𝒐𝒏𝒆 𝒎𝒊𝒈𝒉𝒕 𝒆𝒗𝒆𝒏 𝒇𝒐𝒓𝒈𝒆𝒕 𝒕𝒉𝒂𝒕 𝒉𝒆 𝒊𝒔 𝒊𝒏 𝒕𝒉𝒆 𝒈𝒚𝒎, 𝒂𝒏𝒅 𝒏𝒐𝒕 𝒊𝒏 𝒂 𝒏𝒊𝒈𝒉𝒕𝒄𝒍𝒖𝒃 𝒐𝒓 𝒔𝒐𝒎𝒆 𝒇𝒂𝒏𝒄𝒚 𝒓𝒆𝒔𝒕𝒂𝒖𝒓𝒂𝒏𝒕. 𝑶𝒘𝒏𝒆𝒓𝒔 𝒐𝒇 𝒕𝒉𝒆 𝒈𝒚𝒎 𝒔𝒆𝒍𝒆𝒄𝒕 𝒕𝒉𝒆 𝒃𝒆𝒔𝒕 𝒑𝒆𝒓𝒔𝒐𝒏𝒂𝒍 𝒕𝒓𝒂𝒊𝒏𝒆𝒓𝒔 𝒇𝒐𝒓 𝒕𝒉𝒆 𝒆𝒙𝒑𝒆𝒏𝒔𝒊𝒗𝒆 𝒈𝒚𝒎𝒔 𝒂𝒏𝒅 𝒆𝒗𝒆𝒏 𝒉𝒆𝒍𝒅 𝒑𝒓𝒊𝒗𝒂𝒕𝒆 𝒑𝒂𝒓𝒕𝒊𝒆𝒔 𝒇𝒐𝒓 𝒑𝒆𝒐𝒑𝒍𝒆 𝒘𝒉𝒐 𝒑𝒖𝒓𝒄𝒉𝒂𝒔𝒆𝒅 𝒎𝒆𝒎𝒃𝒆𝒓𝒔𝒉𝒊𝒑 𝒊𝒏 𝒕𝒉𝒆𝒊𝒓 𝒈𝒚𝒎. 𝑴𝒐𝒅𝒆𝒓𝒏 𝒆𝒙𝒑𝒆𝒏𝒔𝒊𝒗𝒆 𝒈𝒚𝒎𝒔 𝒄𝒂𝒏 𝒑𝒓𝒐𝒗𝒊𝒅𝒆 𝒕𝒉𝒆𝒊𝒓 𝒎𝒆𝒎𝒃𝒆𝒓𝒔 𝒘𝒊𝒕𝒉 𝒂𝒍𝒍 𝒔𝒐𝒓𝒕𝒔 𝒐𝒇 𝒄𝒐𝒎𝒇𝒐𝒓𝒕, 𝒔𝒖𝒄𝒉 𝒂𝒔 𝒔𝒑𝒂 𝒔𝒆𝒓𝒗𝒊𝒄𝒆𝒔, 𝒎𝒖𝒔𝒊𝒄 𝒔𝒆𝒍𝒆𝒄𝒕𝒊𝒐𝒏, 𝒂𝒏𝒅 𝒇𝒓𝒆𝒆 𝒃𝒆𝒂𝒖𝒕𝒚 𝒑𝒓𝒐𝒅𝒖𝒄𝒕𝒔.</p>
+        </div>
+        <div class="text2">
+          <br>
+          <br>
+          <h2>𝔽𝕖𝕖𝕤 </h2>
+          </div>
+<table>
+  <thead>
+    <tr>
+      <th style="width: 40%;">𝕊.ℕ𝕆.</th>
+      <th style="width: 20%;">𝕄𝕆ℕ𝕋ℍ𝕊 & 𝕐𝔼𝔸ℝ</th>
+      <th style="width: 40%;">𝔽𝔼𝔼𝕊</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1 Months</td>
+      <td>3,500/-</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2 Months</td>
+      <td>4,500/-</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>3 months</td>
+      <td>5,500/-</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5 months</td>
+      <td>7,500/-</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Gym membership</td>
+      <td>13,500</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Annual membership</td>
+      <td>15,250</td>
+    </tr>
+  </tbody>
+</table>
+</center>
+</div>
+<br>
+<br>
+<div class="text3">
+  <h2>𝕄𝕖𝕞𝕓𝕖𝕣𝕤𝕙𝕚𝕡 𝕔𝕒𝕤𝕙𝕓𝕒𝕔𝕜 𝕠𝕗𝕗𝕖𝕣% 𝔸𝕧𝕒𝕝𝕚𝕒𝕓𝕝𝕖!</h2>
+</div>
+<br>
+<br>
+<div class="image2">
+  <img src="./image/gym7.avif" height="400px" width="1568px">
+</div>
+<br>
+<br>
+<div class="open">
+<h2>𝕆𝕡𝕖𝕟 𝕋𝕚𝕞𝕚𝕟𝕘 & ℂ𝕝𝕠𝕤𝕖𝕋𝕚𝕞𝕚𝕟𝕘</h2>
+<p>Timing - 4:45 am to 9:30 pm</p>
+</div>
+<br>
+<br>
+<div class="timing">
+  <h2>𝕊𝕔𝕙𝕖𝕕𝕦𝕝𝕖 𝕋𝕚𝕞𝕚𝕟𝕘</h2>
+</div>
+<center>
+<table>
+  <thead>
+    <tr>
+      <th style="width: 40%;">𝔹𝕒𝕥𝕔𝕙</th>
+      <th style="width: 40%;">𝕄𝔼ℕ/𝕎𝕆𝕄𝔼ℕ</th>
+      <th style="width: 20%;">𝕋𝕚𝕞𝕚𝕟𝕘</th>
+      <th style="width: 40%;">𝔹𝕠𝕠𝕜𝕚𝕟𝕘</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>men</td>
+      <td>5 am to 8 am </td>
+      <td><button><a href="booking.html" target="_blank">book now</a></button></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>women</td>
+      <td>8am to 10am</td>
+      <td><button><a href="booking.html" target="_blank">book now</a></button></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>men</td>
+      <td>10 am to 12 pm</td>
+      <td><button><a href="booking.html" target="_blank">book now</a></button></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>women</td>
+      <td>12 pm to 2pm</td>
+      <td><button><a href="booking.html" target="_blank">book now</a></button></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>men</td>
+      <td>2 pm to 4 pm</td>
+      <td><button><a href="booking.html" target="_blank">book now</a></button></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>women</td>
+      <td>4 pm to 5 pm</td>
+      <td><button><a href="booking.html" target="_blank">book now</a></button></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>men</td>
+      <td>5 pm to 7 pm</td>
+      <td><button><a href="booking.html" target="_blank">book now</a></button></td>
+    </tr>
+  </tbody>
+  <tr>
+    <td>8</td>
+    <td>women</td>
+    <td>7 pm to 9 pm </td>
+    <td><button><a href="booking.html" target="_blank">book now</a></button></td>
+  </tr>
+</table>
+</center>
+<br>
+<br>
+<footer>
+  <div class="end">
+    <p> copyrights all reneved 2024</p>
+  </div>
+</footer>
+ </header>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page with Navbar</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-image: url('./image/gym13.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; /* Light grey background */
+      width: 100%;
+      max-width: 100%;
+      height: 700px;
+      max-height: 100%;
+    }
+    
+    .navbar {
+      background-color:#f89514; /* White navbar background */
+      box-shadow: 0 2px 4px rgba(196, 196, 196, 0.762); /* Shadow for navbar */
+    }
+    
+    .navbar-brand {
+      font-weight: bold; /* Bold text for the brand */
+    }
+    
+    .navbar-toggler {
+      border-color: rgba(0,0,0,0.1); /* Border color for the toggle button */
+    }
+    
+    .navbar-nav {
+      margin-left: auto; /* Align navbar links to the right */
+    }
+    
+    .navbar-nav .nav-link {
+      color: #a04242; /* Dark grey text color */
+      margin-right: 10px; /* Space between navbar links */
+    }
+    
+    .navbar-nav .nav-link:hover {
+      color: #007bff; /* Change text color on hover */
+    }
+    
+    .card {
+      border: 1px solid #ced4da; /* Light grey border for the card */
+      border-radius: 0.25rem; /* Rounded corners */
+    }
+    
+    .card-header {
+      background-color:#f89514; /* Primary color background for card header */
+      color: #eff6ee; /* White text color */
+      font-weight: bold; /* Bold text */
+    }
+    
+    .card-body {
+      padding: 20px; /* Padding inside the card body */
+    }
+    
+    .form-group {
+      margin-bottom: 20px; /* Space between form groups */
+    }
+    
+    .btn-primary {
+      background-color: #20a6ff; /* Primary button color */
+      border-color: #d1d1d1; /* Primary button border color */
+    }
+    
+    .btn-primary:hover {
+      background-color: #ced1de; /* Darker primary color on hover */
+      border-color: #252525; /* Darker primary border color on hover */
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-red">
+  <a class="navbar-brand">𝕄𝕂 𝔾𝕐𝕄</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" target="_blank">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="register.html" target="_blank">Login</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">Login</div>
+        <div class="card-body">
+          <form action="dashboard.html">
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" class="form-control" id="username" name="username">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" name="password">
+            </div>
+            <center>
+            <button type="submit" class="btn btn-primary">Login</a></button>
+            </center>
+            <br>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
